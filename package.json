@@ -10,7 +10,7 @@
         "lint": "next lint",
         "start": "next start",
         "kysely:cli": "pnpm  kysely-migration-cli",
-        "mkysely:migrate": "pnpm tsx ./scripts/migrate.ts"
+        "kysely:migrate": "pnpm tsx ./scripts/migrate.ts"
     },
     "dependencies": {
         "@prisma/client": "^5.1.1",
